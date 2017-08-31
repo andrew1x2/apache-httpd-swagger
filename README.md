@@ -13,8 +13,8 @@ This cookbook describes how to install the Apache Swagger Editor on your local w
 1. Unzip the zip file, you will see a directory called "Apache Software Foundation".
 1. Copy the "Apache Software Foundation" folder to the following path:  C:\Program Files\
 1. Open a command prompt and type the following commands:
-    * 'CD "C:\Program Files\Apache Software Foundation\Apache 2.4\bin" [press enter]'
-    * 'httpd.exe -k install [press enter]'
+    * `CD "C:\Program Files\Apache Software Foundation\Apache 2.4\bin" [press enter]`
+    * `httpd.exe -k install [press enter]`
 1. Open your favorite web browsers, and enter the following URL:
     * http://localhost/swagger-editor/
 1. You should see the Swagger Editor load!
@@ -27,5 +27,5 @@ This cookbook describes how to install the Apache Swagger Editor on your local w
 ## Configure Work Directory Mod:
 Directory browsing is also enabled in this configuration so that you can quickly confirm the web server / browser view of your local Swagger files.  You can modify your Swagger files in your file system editor of choice, save, then hit reload in the web browser and see your changes instantly reflected.  You can configure Apache to reference any location in your local workstation.  To change the path, refer to the following instructions for your work directory
 
-## Add more Mods
+## Add more Mods: :-)
 All <your mod>Mod.conf files should be placed in the conf/mods/ directory.  These will automatically be referenced at Server start time or restart time.
