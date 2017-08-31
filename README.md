@@ -20,7 +20,7 @@ This cookbook describes how to install the Apache Swagger Editor on your local w
 1. You should see the Swagger Editor load!
 1. Bookmark this page as your local Swagger Editor Smile :)👍
 
-### Congratulations, your Apache Swagger Editor web server is installed!
+### Congratulations, your Apache Httpd Swagger Editor is installed!
 ### NOTE:  With this configuration, the Apache Swagger Editor is running as a Service in your Windows installation.  This means it will automatically started and available when you turn on your workstation.
 
 # Apache Configuration Details:
