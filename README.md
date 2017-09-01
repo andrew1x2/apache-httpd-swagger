@@ -26,7 +26,11 @@ This cookbook describes how to install the Apache Swagger Editor on your local w
 
 # Apache Configuration Details:
 ## Configure Work Directory Mod:
-Directory browsing is also enabled in this configuration so that you can quickly confirm the web server / browser view of your local Swagger files.  You can modify your Swagger files in your file system editor of choice, save, then hit reload in the web browser and see your changes instantly reflected.  You can configure Apache to reference any location in your local workstation.  To change the path, refer to the following instructions for your work directory
+Directory browsing is also enabled in this configuration so that you can quickly confirm the web server / browser view of your local Swagger files.  You can modify your Swagger files in your file system editor of choice, save, then hit reload in the web browser and see your changes instantly reflected.  You can configure Apache to reference any location in your local workstation.  To change the path, refer to the following instructions for your work directory path.
+
+1. The WorkMod.conf is installed by default.
+1. You can modify the path to your work directory by editing the WorkMod.conf file with the appropriate path to your desired work directory.  The file is located in the Apache Software Foundation/Apache 2.4/conf/mods directory.  
+    * NOTE: Typically the path to the work directory would be the directory where your Swagger files are located, but can be any location on your file system that you have access to read.
 
 ## Add more Mods: :-)
-All <your mod>Mod.conf files should be placed in the conf/mods/ directory.  These will automatically be referenced at Server start time or restart time.
+All Mod.conf files should be placed in the conf/mods/ directory.  These will automatically be referenced at Server start time or restart time.
