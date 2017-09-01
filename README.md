@@ -12,14 +12,14 @@ This cookbook describes how to install the Apache Swagger Editor on your local w
 
 ## Windows 10, 64bit Recipe:
 1. Download the latest distro.  It is located in [ApacheHttpdSwagger-1.0/distro/Windows-10-64bit/](https://github.com/asouthwick/ApacheHttpdSwagger/tree/master/ApacheHttpdSwagger-1.0/distro/Windows-10-64bit) directory.  
-    * Find the latest version and download.  All distros are date coded for easy references.
-1. Unzip the zip file, you will see a directory called "Apache Software Foundation".
-1. Copy the "Apache Software Foundation" folder to the following path:  C:\Program Files\
+    * Find the latest version and download.  All distros are date coded for easy references to different distros over time.
+1. Unzip the zip file, you will see a directory called __"Apache Software Foundation"__.
+1. Copy the "Apache Software Foundation" folder to the following path:  `C:\Program Files\`
 1. Open a command prompt and type the following commands:
-    * `CD "C:\Program Files\Apache Software Foundation\Apache 2.4\bin" [press enter]`
-    * `httpd.exe -k install [press enter]`
+   * `CD "C:\Program Files\Apache Software Foundation\Apache 2.4\bin" [press enter]`
+   * `httpd.exe -k install [press enter]`
 1. Open your favorite web browsers, and enter the following URL:
-    * __http://localhost/swagger-editor/__
+   * __http://localhost/swagger-editor/__
 1. You should see the Swagger Editor load!
 1. __Bookmark this page as your local Swagger Editor 👍😊✌️__
 
