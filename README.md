@@ -11,7 +11,7 @@ Andrew
 This cookbook describes how to install the Apache Swagger Editor on your local workstation.  This is important as the Swagger Editor while functional to a limited degree on your local file system in a web browser is designed to be a web application running on a web server.  This is important to take advantage of features such as http references from Swagger files to other modular or shared Swagger json files by design, respectfully.  This modular pattern allows for better maintenance of more complex Swagger files and results in smaller more manageable Swagger components.  Further, true sharing of definitions between Swagger files allows for full automatic synchronicity of key standards that are designed to be synchronized at all times between Swagger files as major version shared standards.  The goal is to follow Swagger best practices, and also simplify and improve maintenance and modification of the Swagger files over time.
 
 ## Windows 10, 64bit Recipe:
-1. Download the latest distro.  It is located in ApacheHttpdSwagger-1.0/distro/Windows-10-64bit/ directory.  
+1. Download the latest distro.  It is located in [ApacheHttpdSwagger-1.0/distro/Windows-10-64bit/](https://github.com/asouthwick/ApacheHttpdSwagger/tree/master/ApacheHttpdSwagger-1.0/distro/Windows-10-64bit) directory.  
     * Find the latest version and download.  All distros are date coded for easy references.
 1. Unzip the zip file, you will see a directory called "Apache Software Foundation".
 1. Copy the "Apache Software Foundation" folder to the following path:  C:\Program Files\
