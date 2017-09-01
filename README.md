@@ -25,6 +25,9 @@ This cookbook describes how to install the Apache Swagger Editor on your local w
 
 ### Congratulations, your Apache Httpd Swagger Editor is installed!
 #### NOTE:  With this configuration, the Apache Swagger Editor is running as a Service in your Windows installation.  This means it will automatically started and available when you turn on your workstation.
+* __Apache 2.4 is a lightweight process at runtime, and you should see no performance differences on your local computer with the service running.__
+* __If you want to change the service configuration at any time, launch the Services Desktop app.__  To do this easily on Windows 10 click on the Cortana button in your task bar, and type "Services" in the Cortana search box.  Cortana will find the "Services Desktop app" - select this to launch.
+* __In the Services window, you will see the "Apache2.4" Service.__  From here you can right click to set different start options, manually restart the service if there are configuration changes, etc.
 
 ## OS X, 64bit Recipe: Coming Soon! (promise) ✖️🍎👍😊
 
