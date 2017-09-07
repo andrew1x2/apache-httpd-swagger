@@ -1,11 +1,7 @@
 # ApacheHttpdSwagger
 __The latest version of Apache and the Swagger Editor combined in a single package to make working with the Swagger Editor web application easier.__  __The Swagger Editor is a web application, designed to work in a web browser deployed on a server__.  The ApacheHttpdSwagger application allows you to quickly and easily create a local server and take advantage of native Swagger features and best practices.  Some of these best practices are based on http requests for additional Swagger component files.  Leveraging a component set of reusable Swagger definition files is especially helpful and a best practice when Swagger files start to become large.  With large files maintenance and extension becomes a more difficult task, prone to higher risk, in real world application of Swagger API definition file(s).  
 
-__This project aims to make things better, and easily leverage the best of what the Swagger Editor has to offer in an open source standard.  Enjoy!  And have a great day!__
-
-👍😊
-
-Andrew
+__This project aims to make things better, and easily leverage the best of what the Swagger Editor has to offer in an open source standard.  Enjoy! 👍😊
 
 # Cookbook:
 This cookbook describes how to install the Apache Swagger Editor on your local workstation.  This is important as the Swagger Editor while functional to a limited degree on your local file system in a web browser is designed to be a web application running on a web server.  This is important to take advantage of features such as http references from Swagger files to other modular or shared Swagger json files by design, respectfully.  This modular pattern allows for better maintenance of more complex Swagger files and results in smaller more manageable Swagger components.  Further, true sharing of definitions between Swagger files allows for full automatic synchronicity of key standards that are designed to be synchronized at all times between Swagger files as major version shared standards.  The goal is to follow Swagger best practices, and also simplify and improve maintenance and modification of the Swagger files over time.
