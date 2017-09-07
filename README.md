@@ -1,4 +1,4 @@
-# ApacheHttpdSwagger
+# apache-httpd-swagger
 __The latest version of Apache and the Swagger Editor combined in a single package to make working with the Swagger Editor web application easier.__  __The Swagger Editor is a web application, designed to work in a web browser deployed on a server__.  The ApacheHttpdSwagger application allows you to quickly and easily create a local server and take advantage of native Swagger features and best practices.  Some of these best practices are based on http requests for additional Swagger component files.  Leveraging a component set of reusable Swagger definition files is especially helpful and a best practice when Swagger files start to become large.  With large files maintenance and extension becomes a more difficult task, prone to higher risk, in real world application of Swagger API definition file(s).  
 
 __This project aims to make things better, and easily leverage the best of what the Swagger Editor has to offer in an open source standard.  Enjoy! 👍😊
